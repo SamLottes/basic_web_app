@@ -3,6 +3,6 @@ const clickMeBtn = document.getElementById('clickMeBtn');
 
 //Add event listener to the button
 clickMeBtn.addEventListener('click', function () {
-    window.open('https://www.linkedin.com/in/samuel-lottes/');
+    window.location.href = 'https://www.linkedin.com/in/samuel-lottes/';
 });
 
